@@ -1,4 +1,4 @@
-public class Variable {
+public class variable {
 // Varibale = a reusable  container for a value 
 //            a varibale behnaves as if was the value it contines
 
@@ -22,22 +22,22 @@ public class Variable {
 
 
     public static void main(String[] args) {
-        int ag = 30;
-        int yea = 2025;
-        int quantity= 1;
+        // int ag = 30;                         
+        // int yea = 2025;                      
+        // int quantity= 1;
 
-        double price = 19999999.99;
-        double gpa = 3.5;
-        double temperature = -12.5;
+        // double price = 19999999.99;
+        // double gpa = 3.5;                    
+        // double temperature = -12.5;
 
         
-        char grade ='A';
-        char symbol = '!';
-        char curren ='s';
+        // char grade ='A';
+        // char symbol = '!';
+        // char curren ='s';
 
-        boolean isStudent= true;
-        boolean forsale =true;
-        boolean isOnline = true;
+        // boolean isStudent= true;
+        // boolean forsale =true;
+        // boolean isOnline = true;
 
 
         String name = "Bro code!!!";
