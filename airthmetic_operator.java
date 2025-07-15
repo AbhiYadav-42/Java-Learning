@@ -35,7 +35,7 @@ public class airthmetic_operator {
     System.out.println(c);
 
 
-    //  Order of operations {P-EM-D-A-S}
+    //  Order of operations {P-E-M-D-A-S}
 
 
     double result  = 3 + 4 *( 7 - 5 ) / 2.0;
