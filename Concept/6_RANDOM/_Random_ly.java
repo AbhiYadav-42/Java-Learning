@@ -1,3 +1,4 @@
+package RANDOM;
 import java.util.Random;
 
 public class _Random_ly {
