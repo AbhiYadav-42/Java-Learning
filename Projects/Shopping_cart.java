@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Shopping_cart{
@@ -10,15 +11,16 @@ public class Shopping_cart{
     String Buy =  scan.nextLine();
 
     System.out.print("What is the price for each?: ");
-    int price = scan.nextInt();
+    Double price = scan.nextDouble();
 
     System.out.print("How many would you like:");
     int quantity = scan.nextInt();
 
-    int result =  quantity * price; 
-    System.out.println("You have bought" + quantity  + Buy+"/s");
+    Double result =  quantity * price; 
+    System.out.println("You have bought" + " " + quantity + " " + Buy+"/s");
     System.out.println("Your total is "+ result );
 
     scan.close();
   }
 }
+
