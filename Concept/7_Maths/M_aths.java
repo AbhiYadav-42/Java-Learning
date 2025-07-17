@@ -17,6 +17,8 @@ public class M_aths {
     result = Math.max(10,20);
     result = Math.min(20,10);
 
+    System.out.println(result);
+
     // HYPOTENUSE C = Math.sqrt ( a² + b² )
         Scanner scanner = new Scanner(System.in);
         double a;
