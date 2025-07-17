@@ -43,5 +43,15 @@ public class airthmetic_operator {
 
 
 
+    int a =5;
+    int b =10;
+    int d =15;
+    int num = a + b +d;
+    System.out.println("addition: " +num ) ;
+
+    int num2;
+    num2 =(d-a)-b;
+    System.out.println("num = "+num2);
+
   }
 }
