@@ -1,8 +1,8 @@
 
 public class str {
   public static void main(String[] args) {
-    
     String name ="    Abhi      ";
+    /* 
 
     int length = name.length();           // state the length of the string
     
@@ -10,7 +10,7 @@ public class str {
     char letter = name.charAt(2);       // Prints at which index what character is it 
     int index = name.indexOf("o");          // state at which index the character is 
     int lastIndex =name.lastIndexOf("o");       // state the index of the char 
-    
+*/
     // name = name.toUpperCase();        
     // name =name.toLowerCase();         
 
