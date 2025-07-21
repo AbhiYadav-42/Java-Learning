@@ -17,8 +17,8 @@ public class sub_string {
      username = email.substring(0 ,email.indexOf("@"));
      domain = email.substring(email.indexOf("@")+1 );
   
-      System.out.println(username);
-      System.out.println(domain);
+      System.out.println("Username: "+ username);
+      System.out.println("Domain: "+ domain);
     }
 
     else{

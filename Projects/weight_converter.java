@@ -3,6 +3,8 @@ public class weight_converter {
   public static void main(String[] args) {
     Scanner scan = new Scanner (System.in);
 
+
+    // WEIGHT CONVERSION PROGRAM 
     int choose;
     int Kg;
     int lb;
