@@ -7,8 +7,13 @@ public class meth {
 
   double result = square(4);
     System.out.println("square: "+ result);
+
+
   
     System.out.println("CUBE: "+ cube(4));
+
+
+    
   
     String fullName = getFullName("Spongebob", "Squarepants");
     System.out.println(fullName);
