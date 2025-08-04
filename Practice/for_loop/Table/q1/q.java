@@ -12,9 +12,7 @@ public class q{
    for(int i = 0 ; i <= num; i++){
     sum = sum + i;
 
-    if () {
-      
-    }
+
     System.out.print(sum + " ");
    }
   
