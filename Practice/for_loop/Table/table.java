@@ -1,4 +1,3 @@
-package Practice.for_loop.Table;
 
 import java.util.Scanner;
 
