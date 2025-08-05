@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class sqaure {
   public static void main(String[] args) {
-int num                                                                                                ;
+int num;
 
 
     Scanner scan = new Scanner(System.in);
@@ -16,6 +16,8 @@ int num                                                                         
       
       System.out.println(i*i + " ") ;
     }
+
+    
 
   }
 }

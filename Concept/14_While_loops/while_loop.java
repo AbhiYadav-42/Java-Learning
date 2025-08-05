@@ -12,7 +12,7 @@ public class while_loop {
   //   System.out.println("Enter your name: ");
   //   name = scan.nextLine();
   // }
-
+ 
   // System.out.println("Hello" + name);
 
   //  scan.close();
