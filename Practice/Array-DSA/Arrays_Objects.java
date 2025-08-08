@@ -15,6 +15,13 @@ public class Arrays_Objects {
 
     }
     System.out.println( "Array = "  + Arrays.toString(str));
-    
+
+
+    // modify
+    System.out.print( str[1]+   " is changed  to ");
+
+  str[1] = "kunal";           // changung th original object  
+  System.out.print(str[1]+" \n");
+  System.out.println(Arrays.toString(str));
   }
 }
