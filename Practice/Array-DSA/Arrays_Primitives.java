@@ -3,9 +3,11 @@ import java.util.Scanner;
 
 public class Arrays_Primitives {
 
-  // Array of primitives
-public static void main(String[] args) {
-  Scanner scan= new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner scan= new Scanner(System.in);
+    
+    
+    // Array of primitives
         int[] arr = new int[6];
         arr[0]= 23;
         arr[1]= 0;
@@ -15,7 +17,7 @@ public static void main(String[] args) {
         arr[5]= 77;
   
           // System.out.println(arr[5]);
-          
+
 /* 1st way to print array 
 //        Input using for loop
 for(int i =0; i <  arr.length ; i++) {
