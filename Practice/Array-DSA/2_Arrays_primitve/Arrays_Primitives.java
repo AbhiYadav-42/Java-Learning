@@ -1,10 +1,10 @@
-import java.util.Arrays;
-import java.util.Scanner;
+
+// import java.util.Scanner;
 
 public class Arrays_Primitives {
 
   public static void main(String[] args) {
-    Scanner scan= new Scanner(System.in);
+    // Scanner scan= new Scanner(System.in);
     
     
     // Array of primitives
@@ -20,6 +20,7 @@ public class Arrays_Primitives {
 
 /* 1st way to print array 
 //        Input using for loop
+
 for(int i =0; i <  arr.length ; i++) {
   arr [i]  =  scan.nextInt();
 }    
@@ -52,8 +53,6 @@ System.out.println(Arrays.toString(arr));
 
 
 
-
-// Arrays of objectss!!
 
 
 
