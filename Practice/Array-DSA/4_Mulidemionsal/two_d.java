@@ -14,11 +14,11 @@ public class two_d
     // int [] arr = new int [3];
 
     //[2d dimension]
-    // int [][] arr = new int [2][3];
-    int [][]  arr = {
+    int [][] arr = new int [2][];
+    int [][]  arr2D = {
             {1, 3, 4},
-            {2, 5, 6},
-            {7, 8 ,9},                        
+            {2, 5},
+            {6, 7, 8 ,9},                        
     };
 
     
