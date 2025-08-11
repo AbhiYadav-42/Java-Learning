@@ -1,10 +1,10 @@
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class Arrays_Primitives {
 
   public static void main(String[] args) {
-    // Scanner scan= new Scanner(System.in);
+    Scanner scan= new Scanner(System.in);
     
     
     // Array of primitives
@@ -36,10 +36,10 @@ System.out.print("array =  ");
 //      INSTEAD of this 
 //     use FOR each Loop to iterate over each element dirctly in arry
 
+*/
 for(int array:arr){
   System.out.print(array + " ");}      // "array" represents each element in "arr"
 }
-*/
 
 
 /*3rd way to print  
@@ -58,4 +58,3 @@ System.out.println(Arrays.toString(arr));
 
 }
 
-}
