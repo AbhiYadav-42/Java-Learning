@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 public class input {
@@ -63,5 +63,6 @@ for(int[] arrays : arr ){
     in.close();
   } 
 }
+
 
 
