@@ -19,3 +19,9 @@ public class maximum {
         System.out.println("Maximum element is: " + max);
     }
 }
+
+
+
+
+
+
