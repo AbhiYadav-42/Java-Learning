@@ -10,6 +10,14 @@ public class array_list {
 
 // we can add as much as we want it
 // though, there is an initial capacity of 10
+
+
+// i).  Size is fixed internally
+//ii). say array list fills by some amount
+//  -> It will create a new array list of say,double the size
+//  -> Old elements are copied in a new list
+//  -> old one is deleted 
+
     list.add(999);
     list.add(9949);
     list.add(9569);
