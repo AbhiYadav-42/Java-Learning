@@ -27,19 +27,19 @@ for(int i =0; i <  arr.length ; i++) {
 
 System.out.print("array =  ");
 
-for(int i =0; i <  arr.length ; i++) {
-  System.out.print(arr[i]+ " ");
-}
+// for(int i =0; i <  arr.length ; i++) {
+//   System.out.print(arr[i]+ " ");
+// }
 
 
 /*    2nd Way to print array
 //      INSTEAD of this 
 //     use FOR each Loop to iterate over each element dirctly in arry
 
+*/
 for(int array:arr){
   System.out.print(array + " ");}      // "array" represents each element in "arr"
 }
-*/
 
 
 /*3rd way to print  
@@ -57,4 +57,4 @@ System.out.println(Arrays.toString(arr));
 
 
 }
-}
+
