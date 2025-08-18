@@ -1,4 +1,3 @@
-
 //     Find the largest element --->> 
 // Given an array, find the largest element.
 import java.util.Scanner;
