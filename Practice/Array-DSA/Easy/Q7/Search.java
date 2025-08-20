@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Search {
 public static void main(String[] args) {
-  // Searc an element
+  // Searc an element-->
   //  WAP to chek whether a given number exists in the array or not 
 
   Scanner in = new Scanner (System.in);
@@ -11,14 +11,19 @@ public static void main(String[] args) {
   int Search = in.nextInt();
 
   int [] arr = {1, 2, 3, 4, 5, 6};
+  boolean Found = false;
+
   for(int i = 0 ; i<arr.length; i++){
    if(arr[i] == Search){
     System.out.println("Founded! "+Search);
-   }
-   else{
-     System.out.println("Not FOUND!!  checking next!! "); 
-    }
+
+    Found = true;
+    break;
+   } 
+  }
+  if(!Found){
+    System.out.println("Not FOUND!!"); 
   }
 
 }  
-}
+}7
