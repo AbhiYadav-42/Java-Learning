@@ -17,7 +17,21 @@ public static void main(String[] args) {
 
 // Return the array in the form [x1,y1,x2,y2,...,xn,yn].
 
+  int[] nums = {2,5,1,3,4,7};
+  int n = 3;
+  Shuffle.Solution sol = new Shuffle().new Solution();
+  int[] shuffled = sol.shuffle(nums, n);
+
+  System.out.print("[");
+  for (int i = 0; i < shuffled.length; i++) {
+      System.out.print(shuffled[i]);
+      if (i < shuffled.length - 1) {
+          System.out.print(", ");
+      }
+  }
+  System.out.println("]");
+}
 
  
 }
-}
+
