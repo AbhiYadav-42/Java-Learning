@@ -6,14 +6,14 @@ public class Pointers {
     int left = 0;
 
   //Right pointer
-    int right = num.length -1 ;
+    int right = num.length - 1;
 
 
     while(left <= right) {
       System.out.print("left pointer at index" + left + " : " + num[left]);
       System.out.println("Right pointer at index" + right + ": " + num[right] );
       left++;
-      right++; 
+      right--; 
     } 
 
 
