@@ -13,8 +13,8 @@ public class Pointers {
       System.out.print("left pointer at index" + left + " : " + num[left]);
       System.out.println("Right pointer at index" + right + ": " + num[right] );
       left++;
-      right--; 
-    } 
+      right--;
+    }
 
 
 
