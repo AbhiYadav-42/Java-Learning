@@ -1,4 +1,4 @@
-package Variabale;
+
 public class variable {
 // Varibale = a reusable  container for a value 
 //            a varibale behnaves as if was the value it contines
