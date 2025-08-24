@@ -19,6 +19,7 @@ public class Linear_Search {
         return i;
       }
     }
+    
     return -1;
   }
   public static void main(String[] args) {
