@@ -1,7 +1,7 @@
 
 
 public class Linear_Search {
-  //  Linear search -->
+  //  Linear search --> 
 
 
   //  Search in the arrays :  return the index if item found!1
