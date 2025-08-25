@@ -14,7 +14,7 @@ public class Linear_Search {
       return -1;
     }
 
-    
+
 /*  Run for loop
     for(int i = 0 ; i< arr.length; i++){
       // Check for element at every index if it is  =  target
@@ -40,12 +40,13 @@ public class Linear_Search {
 
 // this line will execute if  none of the statements above have executed 
 // hence the target not found!!
-    return -1;
+    return Integer.MAX_VALUE;
   }
 
 
   
   public static void main(String[] args) {
+    
     int[] nums = {1 , 2 ,343, 54, 6,7,8,99,00,3 ,8};
     int target = 99; 
     int ans = linearSearch(nums , target);
