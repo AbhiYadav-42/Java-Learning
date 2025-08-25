@@ -24,12 +24,13 @@ static boolean search(String str, char target){
  
 
 /*  For - each loop */
-for(char ch : str.toCharArray())
+for(char ch : str.toCharArray()){
   if(ch == target){
     return true;
   }
+  }
+  return false;
 }
-return false;
 
   }
 
