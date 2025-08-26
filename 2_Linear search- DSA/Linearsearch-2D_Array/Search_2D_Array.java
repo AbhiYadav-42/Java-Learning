@@ -1,3 +1,6 @@
+
+// Searching the targeted element in a 2D Array
+
 import java.util.Arrays;
 
 public class Search_2D_Array {
@@ -17,6 +20,7 @@ public class Search_2D_Array {
   for(int i = 0 ; i < arr.length; i++){
     for(int j =0; j< arr[i].length;j++){
      if(arr[i][j]==target){
+      System.out.print(arr[i][j]+ " = ");
       return new int[]{i,j};
      }
       }
