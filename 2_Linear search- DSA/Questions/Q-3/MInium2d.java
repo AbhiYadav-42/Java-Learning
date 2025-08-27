@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class MInium2d {
   public static void main(String[] args) {

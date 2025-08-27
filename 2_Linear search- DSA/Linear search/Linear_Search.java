@@ -1,10 +1,9 @@
 
 
 public class Linear_Search {
-  //  Linear search --> 
-
-
-
+  //  Linear search --> is a fundamental search algorithm used to locate a specific element
+  //  within a list or array. It operates by sequentially examining each element
+  //  in the collection, one by one, starting from the beginning.  
 
   //  Search in the arrays :  return the index if item found!1
   //        otherwise return -1 
@@ -15,7 +14,7 @@ public class Linear_Search {
     }
 
 
-/*  Run for loop
+  // Run for loop
     for(int i = 0 ; i< arr.length; i++){
       // Check for element at every index if it is  =  target
       int element =  arr[i];
@@ -23,10 +22,11 @@ public class Linear_Search {
         return i;
       }
     }
-*/
 
 
-/* If you want to return the element itself you can replace "return i" with "return element" but 
+
+/* If you want to return the element itself you can replace "return i" with "return element" but
+
 // here I am using the for-each loop
     for(int element : arr){
       // Check for element at every index if it is  =  target
