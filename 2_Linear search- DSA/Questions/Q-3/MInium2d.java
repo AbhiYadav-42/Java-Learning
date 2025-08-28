@@ -35,6 +35,20 @@ public class MInium2d {
       }
     }
     return max;
+  
+
+
+  /*For each loop example  
+  static int search2(int[][] arr){
+    int max = Integer.MIN_VALUE;
+    for(int[] init : arr ){
+      for(int element : init){
+        if(element > max){
+          max = element;
+        }
+      }
+    }
+    return max;*/
   }
 
 }
