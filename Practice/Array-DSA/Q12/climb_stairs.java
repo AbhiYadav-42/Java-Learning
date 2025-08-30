@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class climb_stairs {
   class Solution {
@@ -15,5 +15,11 @@ public class climb_stairs {
         }
         return cs[n];
     }
+}
+public static void main(String[] args) {
+  Scanner in = new  Scanner(System.in);
+
+  System.out.print("Enter the number: " );
+  in.nextLine();
 }
 }
