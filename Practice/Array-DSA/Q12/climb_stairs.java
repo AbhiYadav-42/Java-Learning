@@ -20,7 +20,18 @@ public static void main(String[] args) {
   Scanner in = new  Scanner(System.in);
 
   System.out.print("Enter the number: " );
-  in.nextLine();
+ int n =  in.nextInt();
+  
+// Create outer class
+  climb_stairs outer = new climb_stairs();
+
+// Create inner class
+climb_stairs.Solution solv = outer.new Solution();
+
+
+// calling the method 
+int climb = solv.climbStairs(n);
+System.out.println("Number of ways to climb: "+ climb);
 }
 }
 
