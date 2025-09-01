@@ -40,7 +40,7 @@ public class str {
 // it is case senstive to ignore that we had to add after equalsIgnoreCase 
 
         if(name.equalsIgnoreCase("ABHI")){             
-          System.out.println("Your name can't be ABHI");
+          System.out.println("Your name can't be Abhi");
         }
         else{
           System.out.println("Hello "+name);
