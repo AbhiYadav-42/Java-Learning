@@ -18,5 +18,6 @@ public class MultiAL {
         list.get(i).add(in.nextInt());
       }
     }
+    System.out.println(list);
   }
 }
