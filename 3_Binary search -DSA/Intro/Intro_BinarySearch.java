@@ -1,3 +1,4 @@
+package Intro;
 
 
 public class Intro_BinarySearch {
@@ -116,6 +117,7 @@ public static void main(String[] args) {
 
       int mid = start + (end - start) /2 ; 
 
+      
       if(target < arr[mid]){
         end = mid -1;
       } else if(target > arr[mid]){
