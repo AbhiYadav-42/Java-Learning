@@ -18,4 +18,10 @@ public class all_alphabets {
     }
 }
 
+public static void main(String[] args) {
+  Solution sol = new all_alphabets().new Solution();
+  String sentence = "thequickbrownfoxjumpsoverthelazydog";
+  boolean result = sol.checkIfPangram(sentence);
+  System.out.println(result); // Output: true
+}
 }
