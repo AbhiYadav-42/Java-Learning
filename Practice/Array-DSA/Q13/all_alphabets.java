@@ -24,4 +24,13 @@ public static void main(String[] args) {
   boolean result = sol.checkIfPangram(sentence);
   System.out.println(result); // Output: true
 }
+
+
+
+
+
+
+
+
+
 }
