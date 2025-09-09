@@ -30,4 +30,11 @@ public class Medium {
         return (int) total;
     }
 }
+
+public static void main(String[] args) {
+  Solution sol = new Medium().new Solution();
+  int n = 6, delay = 2, forget = 4;
+  int result = sol.peopleAwareOfSecret(n, delay, forget);
+  System.out.println(result); // Output: 5
+}
 }
