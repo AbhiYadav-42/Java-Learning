@@ -8,10 +8,10 @@ public class Search_2D_Array {
     int [] [] arr  = {
                   {23 , 4 ,1},
                   {18 , 2, 3,9},
-                  {78 , 99, 34, 56},
+                  {7 , 99, 34, 56},
                   {18 , 12,}
     };
-    int target = 34;
+    int target = 78;
     int [] ans = search(arr, target);  // format of return value (row, column)
     System.out.println(Arrays.toString(ans));
  }

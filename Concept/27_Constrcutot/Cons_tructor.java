@@ -18,7 +18,7 @@ class Doraemon {
 
     // Parameterized constructor
     Doraemon(String c, int g) {
-        color = c;
+        this.color = c;
         gadgets = g;
         System.out.println("Custom Doraemon created!");
     }

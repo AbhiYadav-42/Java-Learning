@@ -8,21 +8,21 @@ public class Car {
     void start(){
         isRunning = true;
   System.out.println("You start the engine!!");
-}
+    }
 
-// STATUS
-void stop(){
-    isRunning = false;
-  System.out.println("You stop the engine!!");
-}
+    // STATUS
+    void stop(){
+        isRunning = false;
+      System.out.println("You stop the engine!!");
+    }
 
-// DRIVE!!
-void drive(){
-  System.out.println("You drive the " + model);
-}
+    // DRIVE!!
+    void drive(){
+      System.out.println("You drive the " + model);
+    }
 
-void bbrake(){
-  System.out.println("You brake the " + model);
-}
+    void bbrake(){
+      System.out.println("You brake the " + model);
+    }
     
 }
