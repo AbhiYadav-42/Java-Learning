@@ -1,11 +1,8 @@
-import java.util.Scanner;
+
 
 public class meth {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    // Methods = a block of reusable code that is executed when called ()
-
-  double result = square(4);
+    double result = square(4);
     System.out.println("square: "+ result);
 
 

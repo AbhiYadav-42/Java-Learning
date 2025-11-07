@@ -10,7 +10,7 @@ public class oop {
     System.out.println("Who manufacture the car: " + car.make);
     System.out.println("MODEL->" + car.model);
     System.out.println("Price ->" + car.price );
-    System.out.println("Running ? -> "+ car.isRunning);
+    System.out.println("Running   -> "+ car.isRunning);
 
 car.start();
 System.out.println(car.isRunning);
