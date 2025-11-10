@@ -6,16 +6,16 @@ public class while_loop {
   //        while some condition remains
 
   Scanner scan = new Scanner (System.in);
-  // String name ="";
+  String name ="";
 
-  // while(name.isEmpty()){
-  //   System.out.println("Enter your name: ");
-  //   name = scan.nextLine();
-  // }
+  while(name.isEmpty()){
+    System.out.println("Enter your name: ");
+    name = scan.nextLine();
+  }
  
-  // System.out.println("Hello" + name);
+  System.out.println("Hello " + name);
 
-  //  scan.close();
+   scan.close();
 
 
 
@@ -36,15 +36,15 @@ public class while_loop {
 
   // do while-2
 
-  int num = 0;
+//   int num = 0;
 
-  do{
-    System.out.println("Enter a number between 1 to 10: ");
-    num=scan.nextInt();
-  }while(num >1 || num <10);
+//   do{
+//     System.out.println("Enter a number between 1 to 10: ");
+//     num=scan.nextInt();
+//   }while(num >1 || num <10);
 
-  System.out.println("You picked : "+ num);
-scan.close();         
+//   System.out.println("You picked : "+ num);
+// scan.close();         
 
   }
   }
